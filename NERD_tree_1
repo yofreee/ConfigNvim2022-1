@@ -1,0 +1,12 @@
+" Press ? for help
+
+>----------Bookmarks----------
+
+.. (up a dir)
+/home/yofre/.config/nvim/
+▸ [  ]autoload/
+▸ [  ]plugged/
+▸ [  ]session/
+  [  ][Plugins]
+  [  ]coc-settings.json
+  [  ]init.vim
