@@ -1,7 +1,8 @@
-Updated. Elapsed time: 8.302782 sec.
+Updated. Elapsed time: 9.756061 sec.
 [===========================================================]
 
 - Finishing ... Done!
+- Post-update hook for nvim-treesitter ... OK
 - delimitMate: Ya está actualizado.
 - fzf: Ya está actualizado.
 - vim-devicons: Ya está actualizado.
@@ -21,7 +22,7 @@ Updated. Elapsed time: 8.302782 sec.
 - vim-rhubarb: Ya está actualizado.
 - vim-signify: Ya está actualizado.
 - vim-lua-inspect: Ya está actualizado.
-- nvim-treesitter: Ya está actualizado.
+- nvim-treesitter:  3 files changed, 10 insertions(+), 10 deletions(-)
 - coc.nvim: Ya está actualizado.
 - CSApprox: Ya está actualizado.
 - vim-commentary: Ya está actualizado.
@@ -31,7 +32,7 @@ Updated. Elapsed time: 8.302782 sec.
 - vim-racer: Ya está actualizado.
 - vim-nerdtree-tabs: Ya está actualizado.
 - vim-gitgutter: Ya está actualizado.
-- vim-airline: Ya está actualizado.
+- vim-airline:  1 file changed, 1 insertion(+), 1 deletion(-)
 - vim-rspec: Ya está actualizado.
 - vim-ruby-refactoring: OK
 - vim-rails: Ya está actualizado.
@@ -43,14 +44,14 @@ Updated. Elapsed time: 8.302782 sec.
 - vim-bootstrap-updater: Ya está actualizado.
 - ultisnips: Ya está actualizado.
 - asyncomplete-lsp.vim: Ya está actualizado.
-- vim-fugitive: Ya está actualizado.
+- vim-fugitive:  1 file changed, 11 insertions(+), 12 deletions(-)
 - vim-misc: Ya está actualizado.
 - plenary.nvim: Ya está actualizado.
 - moonlight.nvim: Ya está actualizado.
 - c.vim: Ya está actualizado.
 - perlomni.vim: Ya está actualizado.
 - ale: Ya está actualizado.
-- fzf.vim: Ya está actualizado.
+- fzf.vim:  1 file changed, 3 insertions(+), 1 deletion(-)
 - phpactor: Ya está actualizado.
 - emmet-vim: Ya está actualizado.
 - vim-haml: Ya está actualizado.

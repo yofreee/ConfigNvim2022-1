@@ -12,6 +12,7 @@ endif
 
 source /.config/nvim/plug-config/coc.vim
 
+let mapleader = ","
 
 
 
