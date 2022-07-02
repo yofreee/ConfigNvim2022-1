@@ -53,7 +53,14 @@ https://github.com/neoclide/coc.nvim/wiki/Language-servers#java
 ## Telescope
 
 **sudo pacman -S ripgrep**    (ripgrep is a line-oriented search tool that recursively searches the current directory for a regex pattern)
+#
+**sudo pacman -S fd** = ArchLinux (fd is a program to find entries in your filesystem)
+*** sudo apt install fd-find = Ubuntu y otras distribuciones basadas en Debian
 
-**sudo pacman -S fd**    (fd is a program to find entries in your filesystem)
-
+Agregue un enlace fd ejecutando el comando
+```Terminal
+ln -s $(which fdfind) ~/.local/bin/fd
+```
+para poder usarlo fd de la misma manera que en esta documentación. Asegúrate de que $HOME/.local/bin esté en tu $PATH.
+#
 **pip3 install tree_sitter**
