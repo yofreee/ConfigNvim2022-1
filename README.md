@@ -26,7 +26,7 @@ https://github.com/yofreee/ConfigNvim/blob/main/init.vim
 
 ## Install PIP on ArchLinux
 ```Terminal
-sudo pacman -S python-pip
+sudo pacman -S python3-pip
 ```
 
 ## No "python3" provider found. Run :checkhealth provider
