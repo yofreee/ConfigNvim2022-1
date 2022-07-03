@@ -81,6 +81,7 @@ Ej: nvm install v16.15.1
 sudo apt install npm
 ```
 ## Neovim COC - "node is not executable"
+## Neovim COC - "node is not executable"
 Dentro de su init.vim o .vimrc encontrará la siguiente instrucción:
 ```Terminal
 let g:coc_node_path = 'ruta de node'
