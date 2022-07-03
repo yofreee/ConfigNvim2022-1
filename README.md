@@ -66,3 +66,17 @@ ln -s $(which fdfind) ~/.local/bin/fd
 para poder usarlo fd de la misma manera que en esta documentación. Asegúrate de que $HOME/.local/bin esté en tu $PATH.
 #
 **pip3 install tree_sitter**
+
+#
+**Instalación/Actualización nodejs**
+Mediante nvm y la versión más estable de nodejs
+```Terminal
+nvm install v(numero de versión)
+```
+Ej: nvm install v16.15.1
+
+**Instalación npm**
+```Terminal
+sudo apt install npm
+```
+#
