@@ -80,6 +80,12 @@ Ej: nvm install v16.15.1
 ```Terminal
 sudo apt install npm
 ```
+## Instalación yarn
+Instalar yarn de acuerdo a su sistema operativo o su preferencia pero instalarlo
+```Terminal
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+```
+
 ## Neovim COC - "node is not executable"
 Dentro de su init.vim o .vimrc encontrará la siguiente instrucción:
 ```Terminal
@@ -93,4 +99,5 @@ De allí, obtendremos una ruta la cual copiaremos y la reemplazaremos por la que
 ```Terminal
 let g:coc_node_path = 'ruta resultante del anterior comando dentro de comillas simples'
 ```
-#
+## Instalar servidores de lenguaje
+Coc aqui: https://github.com/neoclide/coc.nvim/wiki/Language-servers#supported-features
