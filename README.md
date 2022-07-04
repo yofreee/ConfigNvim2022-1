@@ -85,6 +85,11 @@ Instalar yarn de acuerdo a su sistema operativo o su preferencia pero instalarlo
 ```Terminal
 curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 ```
+## Comando :checkhealth
+Este comando cumple su funcionalidad de mostrar un diagnostico en cuanto a problemas de configuración, ejecutelo cada vez que tenga problemas con Neovim y tenga en cuenta los consejos (advice), advertencias y errores:
+```Terminal
+:checkhealth
+```
 
 ## Neovim COC - "node is not executable"
 Dentro de su init.vim o .vimrc encontrará la siguiente instrucción:
@@ -101,3 +106,4 @@ let g:coc_node_path = 'ruta resultante del anterior comando dentro de comillas s
 ```
 ## Instalar servidores de lenguaje
 Coc aqui: https://github.com/neoclide/coc.nvim/wiki/Language-servers#supported-features
+#
