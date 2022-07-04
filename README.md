@@ -24,9 +24,10 @@ The complete configuration can be found in my init.vim file:
 https://github.com/yofreee/ConfigNvim/blob/main/init.vim
 #
 
-## Install PIP on ArchLinux
+## Install PIP
 ```Terminal
-sudo pacman -S python3-pip
+sudo pacman -S python3-pip (ArchCraft)
+sudo apt-get install python3-pip (Ubuntu)
 ```
 
 ## No "python3" provider found. Run :checkhealth provider
@@ -45,6 +46,9 @@ This is another common error that is fixed with the following command when Neovi
 
 ## Servers link for languages installed from Coc
 https://github.com/neoclide/coc.nvim/wiki/Language-servers#java
+
+## Extensiones para Neovim con Coc
+https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 
 ## Plugins needed to install neovim correctly
 - Have node and nodejs installed
@@ -85,11 +89,6 @@ Instalar yarn de acuerdo a su sistema operativo o su preferencia pero instalarlo
 ```Terminal
 curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 ```
-## Comando :checkhealth
-Este comando cumple su funcionalidad de mostrar un diagnostico en cuanto a problemas de configuración, ejecutelo cada vez que tenga problemas con Neovim y tenga en cuenta los consejos (advice), advertencias y errores:
-```Terminal
-:checkhealth
-```
 
 ## Neovim COC - "node is not executable"
 Dentro de su init.vim o .vimrc encontrará la siguiente instrucción:
@@ -107,3 +106,14 @@ let g:coc_node_path = 'ruta resultante del anterior comando dentro de comillas s
 ## Instalar servidores de lenguaje
 Coc aqui: https://github.com/neoclide/coc.nvim/wiki/Language-servers#supported-features
 #
+# INFO: 'g:python3_host_prog' is not set
+![App Screenshot](https://i.postimg.cc/c4JVj06J/pythonerror1.png)
+Debemos buscar la ubicación de python3 mediante el siguiente comando:
+```Terminal
+which python3
+```
+y reemplazados dicha ruta en el init.vim o .vimrc
+```Terminal
+let g:python3_host_prog = 'ruta que resulto del anterior comando'
+```
+![App Screenshot](https://i.postimg.cc/jqJD009R/python3errorsolution.png)
