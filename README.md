@@ -105,6 +105,8 @@ let g:coc_node_path = 'ruta resultante del anterior comando dentro de comillas s
 ```
 ## Instalar servidores de lenguaje
 Coc aqui: https://github.com/neoclide/coc.nvim/wiki/Language-servers#supported-features
+## Instalar extensiones para Neovim con Coc
+https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions
 #
 # INFO: 'g:python3_host_prog' is not set
 ![App Screenshot](https://i.postimg.cc/c4JVj06J/pythonerror1.png)
